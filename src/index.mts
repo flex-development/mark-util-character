@@ -3,4 +3,4 @@
  * @module mark-util-character
  */
 
-export {}
+export { default as is, default as isCode } from './is.mts'
