@@ -11,7 +11,7 @@ describe('unit:is', () => {
     expect(testSubject(import.meta.url)).to.be.false
   })
 
-  it('should return `true` if `value` is `null`', () => {
+  it('should return `true` if `value` is end-of-stream code', () => {
     expect(testSubject(codes.eos)).to.be.true
   })
 

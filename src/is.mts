@@ -3,8 +3,8 @@
  * @module mark-util-character/is
  */
 
-import { codes } from '@flex-development/mark-util-symbol'
 import type { Code } from '@flex-development/mark/parse'
+import eos from './eos.mts'
 
 /**
  * Check if `value` looks like a character code.
@@ -19,7 +19,7 @@ import type { Code } from '@flex-development/mark/parse'
  *  `true` if `code` is a number or `null`, `false` otherwise
  */
 function is(this: void, value: unknown): value is Code {
-  return typeof value === 'number' || value === codes.eos
+  return typeof value === 'number' || eos(value)
 }
 
 export default is
