@@ -1,6 +1,6 @@
 /**
  * @file asciiControl
- * @module mark-util-character/asciiControl
+ * @module mark-util-character/lib/asciiControl
  */
 
 import { codes } from '@flex-development/mark-util-symbol'
@@ -27,7 +27,7 @@ function asciiControl(this: void, code: Code): boolean {
   if (eos(code)) return false
   if (code === codes.del) return true // control character DEL.
 
-  // special whitespace codes (which have negative values) and C0.
+  // special Space codes (which have negative values) and C0.
   return code >= codes.vcr && code < codes.space
 }
 

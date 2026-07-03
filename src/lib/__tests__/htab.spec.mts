@@ -1,12 +1,12 @@
 /**
  * @file Unit Tests - htab
- * @module mark-util-character/tests/unit/htab
+ * @module mark-util-character/lib/tests/unit/htab
  */
 
 import { codes } from '@flex-development/mark-util-symbol'
 import testSubject from '../htab.mts'
 
-describe('unit:htab', () => {
+describe('unit:lib/htab', () => {
   it('should return `false` if `code` is not horizontal tab code', () => {
     expect(testSubject(codes.vt)).to.be.false
   })

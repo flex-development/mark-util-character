@@ -1,12 +1,12 @@
 /**
  * @file Unit Tests - eos
- * @module mark-util-character/tests/unit/eos
+ * @module mark-util-character/lib/tests/unit/eos
  */
 
 import { codes } from '@flex-development/mark-util-symbol'
 import testSubject from '../eos.mts'
 
-describe('unit:eos', () => {
+describe('unit:lib/eos', () => {
   it('should return `false` if `code` is not `codes.eos`', () => {
     expect(testSubject(codes.bos)).to.be.false
   })

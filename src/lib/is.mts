@@ -1,6 +1,6 @@
 /**
  * @file is
- * @module mark-util-character/is
+ * @module mark-util-character/lib/is
  */
 
 import type { Code } from '@flex-development/mark/parse'

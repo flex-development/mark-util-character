@@ -1,12 +1,12 @@
 /**
  * @file Unit Tests - is
- * @module mark-util-character/tests/unit/is
+ * @module mark-util-character/lib/tests/unit/is
  */
 
 import { codes } from '@flex-development/mark-util-symbol'
 import testSubject from '../is.mts'
 
-describe('unit:is', () => {
+describe('unit:lib/is', () => {
   it('should return `false` if `value` is not `null` or a number', () => {
     expect(testSubject(import.meta.url)).to.be.false
   })

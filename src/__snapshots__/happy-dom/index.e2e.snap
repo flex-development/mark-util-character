@@ -3,11 +3,15 @@
 exports[`e2e:mark-util-character > should expose public api 1`] = `
 [
   "asciiControl",
-  "eol",
   "eos",
   "htab",
   "is",
   "isCode",
+  "lineEndingOrWhitespace",
+  "eol",
+  "lineEnding",
+  "space",
   "vtab",
+  "whitespace",
 ]
 `;

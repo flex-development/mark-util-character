@@ -1,12 +1,12 @@
 /**
  * @file Unit Tests - asciiControl
- * @module mark-util-character/tests/unit/asciiControl
+ * @module mark-util-character/lib/tests/unit/asciiControl
  */
 
 import { codes } from '@flex-development/mark-util-symbol'
 import testSubject from '../ascii-control.mts'
 
-describe('unit:asciiControl', () => {
+describe('unit:lib/asciiControl', () => {
   it.each<Parameters<typeof testSubject>>([
     [codes.eos],
     [codes.break],

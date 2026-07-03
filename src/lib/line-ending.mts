@@ -1,6 +1,6 @@
 /**
  * @file eol
- * @module mark-util-character/eol
+ * @module mark-util-character/lib/eol
  */
 
 import type { LineEnding } from '@flex-development/mark-util-character'

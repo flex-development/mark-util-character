@@ -4,3 +4,5 @@
  */
 
 export type { default as LineEnding } from './line-ending.mts'
+export type { default as Space } from './space.mts'
+export type { default as Whitespace } from './whitespace.mts'

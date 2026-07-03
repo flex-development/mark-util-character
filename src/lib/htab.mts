@@ -1,6 +1,6 @@
 /**
  * @file htab
- * @module mark-util-character/htab
+ * @module mark-util-character/lib/htab
  */
 
 import { codes } from '@flex-development/mark-util-symbol'

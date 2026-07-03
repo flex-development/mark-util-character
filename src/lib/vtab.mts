@@ -1,6 +1,6 @@
 /**
  * @file vtab
- * @module mark-util-character/vtab
+ * @module mark-util-character/lib/vtab
  */
 
 import { codes } from '@flex-development/mark-util-symbol'

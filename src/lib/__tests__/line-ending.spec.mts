@@ -1,12 +1,12 @@
 /**
- * @file Unit Tests - eol
- * @module mark-util-character/tests/unit/eol
+ * @file Unit Tests - lineEnding
+ * @module mark-util-character/lib/tests/unit/lineEnding
  */
 
 import { codes } from '@flex-development/mark-util-symbol'
-import testSubject from '../eol.mts'
+import testSubject from '../line-ending.mts'
 
-describe('unit:eol', () => {
+describe('unit:lib/lineEnding', () => {
   it('should return `false` if `code` is not line ending code', () => {
     expect(testSubject(codes.space)).to.be.false
   })

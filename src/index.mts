@@ -1,12 +1,7 @@
 /**
- * @file Package Entry Point
+ * @file Entry Point - Package
  * @module mark-util-character
  */
 
-export { default as asciiControl } from './ascii-control.mts'
-export { default as eol } from './eol.mts'
-export { default as eos } from './eos.mts'
-export { default as htab } from './htab.mts'
-export { default as is, default as isCode } from './is.mts'
+export * from './lib/index.mts'
 export type * from './types/index.mts'
-export { default as vtab } from './vtab.mts'

@@ -1,6 +1,6 @@
 /**
  * @file eos
- * @module mark-util-character/eos
+ * @module mark-util-character/lib/eos
  */
 
 import { codes } from '@flex-development/mark-util-symbol'
