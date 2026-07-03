@@ -98,7 +98,7 @@
     "typecheck:ui": "yarn test:ui --typecheck --mode=typecheck"
   },
   "dependencies": {
-    "@flex-development/mark": "flex-development/mark#commit=18ee9cec05552697cafabfa1f9a9294dc36535f4",
+    "@flex-development/mark": "1.0.0-alpha.1",
     "@flex-development/mark-util-symbol": "3.0.0"
   },
   "devDependencies": {

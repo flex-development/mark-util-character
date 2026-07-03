@@ -1864,7 +1864,7 @@ __metadata:
     "@flex-development/export-regex": "npm:2.0.0"
     "@flex-development/grease": "npm:3.0.0-alpha.9"
     "@flex-development/import-regex": "npm:3.0.0"
-    "@flex-development/mark": "flex-development/mark#commit=18ee9cec05552697cafabfa1f9a9294dc36535f4"
+    "@flex-development/mark": "npm:1.0.0-alpha.1"
     "@flex-development/mark-util-symbol": "npm:3.0.0"
     "@flex-development/pathe": "npm:4.0.2"
     "@flex-development/remark-preset": "npm:1.0.0"
@@ -1917,13 +1917,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@flex-development/mark@flex-development/mark#commit=18ee9cec05552697cafabfa1f9a9294dc36535f4":
-  version: 0.0.0
-  resolution: "@flex-development/mark@https://github.com/flex-development/mark.git#commit=18ee9cec05552697cafabfa1f9a9294dc36535f4"
+"@flex-development/mark@npm:1.0.0-alpha.1":
+  version: 1.0.0-alpha.1
+  resolution: "@flex-development/mark@npm:1.0.0-alpha.1"
   dependencies:
     "@flex-development/unist-util-types": "npm:1.6.1"
     "@types/unist": "npm:3.0.3"
-  checksum: 10/cd07c53126e55adf83726df2470053f5e92c88e52825a3ff12a9ba070c8f1120a825ab204f32dc99fefc57b52911d1e06f9bfb421ac442ffea8c27de046c1d5b
+  checksum: 10/7329561e42c49429de401b368fdaec235b60d12e85b503ffb6c5facf9cff19201801515ecc470c89fd1b60dc280b4bf5e6c53285dbf92d674bd0d36a53ef1122
   languageName: node
   linkType: hard
 
