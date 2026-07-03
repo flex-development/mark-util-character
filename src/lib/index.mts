@@ -3,7 +3,10 @@
  * @module mark-util-character/lib
  */
 
+export { default as asciiAlpha } from './ascii-alpha.mts'
+export { default as asciiAlphanumeric } from './ascii-alphanumeric.mts'
 export { default as asciiControl } from './ascii-control.mts'
+export { default as asciiDigit } from './ascii-digit.mts'
 export { default as checker } from './checker.mts'
 export { default as eos } from './eos.mts'
 export { default as htab } from './htab.mts'

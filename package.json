@@ -51,6 +51,7 @@
     "./package.json": "./package.json"
   },
   "imports": {
+    "#fixtures/*": "./__fixtures__/*.mts",
     "#internal/*": {
       "mark-util-character": "./src/internal/*.mts",
       "default": "./dist/internal/*.mjs"

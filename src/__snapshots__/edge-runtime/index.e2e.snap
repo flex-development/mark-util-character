@@ -2,7 +2,10 @@
 
 exports[`e2e:mark-util-character > should expose public api 1`] = `
 [
+  "asciiAlpha",
+  "asciiAlphanumeric",
   "asciiControl",
+  "asciiDigit",
   "checker",
   "eos",
   "htab",
