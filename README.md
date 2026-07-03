@@ -80,7 +80,6 @@ In browsers with [`esm.sh`][esmsh]:
 ## Types
 
 This package is fully typed with [TypeScript][].
-It exports no additional types.
 
 ## Project
 
