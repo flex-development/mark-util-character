@@ -6,6 +6,7 @@ devlop
 fbca
 gpgsign
 hmarr
+htab
 jchen
 kaisugi
 nvmrc
@@ -13,5 +14,6 @@ shfmt
 unstub
 vates
 vitest
+vtab
 yarnrc
 zwnj
