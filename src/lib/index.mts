@@ -12,5 +12,6 @@ export {
 } from './line-ending-or-whitespace.mts'
 export { default as eol, default as lineEnding } from './line-ending.mts'
 export { default as space } from './space.mts'
+export { default as streamBreak } from './stream-break.mts'
 export { default as vtab } from './vtab.mts'
 export { default as whitespace } from './whitespace.mts'
