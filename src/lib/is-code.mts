@@ -1,6 +1,6 @@
 /**
- * @file is
- * @module mark-util-character/lib/is
+ * @file isCode
+ * @module mark-util-character/lib/isCode
  */
 
 import type { Code } from '@flex-development/mark/parse'
@@ -18,8 +18,8 @@ import eos from './eos.mts'
  * @return {value is Code}
  *  `true` if `code` is a number or `null`, `false` otherwise
  */
-function is(this: void, value: unknown): value is Code {
+function isCode(this: void, value: unknown): value is Code {
   return typeof value === 'number' || eos(value)
 }
 
-export default is
+export default isCode
