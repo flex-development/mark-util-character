@@ -1891,7 +1891,7 @@ __metadata:
     happy-dom: "npm:20.10.6"
     husky: "npm:9.1.7"
     is-ci: "npm:4.1.0"
-    micromark-util-character: "npm:2.0.1"
+    micromark-util-character: "npm:2.1.1"
     node-notifier: "npm:10.0.1"
     pkg-size: "npm:2.4.0"
     remark: "npm:15.0.1"
@@ -8455,17 +8455,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"micromark-util-character@npm:2.0.1":
-  version: 2.0.1
-  resolution: "micromark-util-character@npm:2.0.1"
-  dependencies:
-    micromark-util-symbol: "npm:^2.0.0"
-    micromark-util-types: "npm:^2.0.0"
-  checksum: 10/6eb5e58c6ae5f416f71a2b777544d3118fdb04d4fd62ea27f7920d0c58fa56ddd3fe17331fbba7f0c70fa6f90bdf7910e8e951f018f0500f883369d64fd6b925
-  languageName: node
-  linkType: hard
-
-"micromark-util-character@npm:^2.0.0":
+"micromark-util-character@npm:2.1.1, micromark-util-character@npm:^2.0.0":
   version: 2.1.1
   resolution: "micromark-util-character@npm:2.1.1"
   dependencies:

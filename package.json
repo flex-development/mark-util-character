@@ -137,7 +137,7 @@
     "happy-dom": "20.10.6",
     "husky": "9.1.7",
     "is-ci": "4.1.0",
-    "micromark-util-character": "2.0.1",
+    "micromark-util-character": "2.1.1",
     "node-notifier": "10.0.1",
     "pkg-size": "2.4.0",
     "remark": "15.0.1",
