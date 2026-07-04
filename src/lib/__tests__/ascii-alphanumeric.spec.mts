@@ -11,10 +11,10 @@ import testSubject from '../ascii-alphanumeric.mts'
 
 describe('unit:lib/asciiAlphanumeric', () => {
   it.each<Parameters<typeof testSubject>>([
-    [codes.byteOrderMarker],
+    [codes.space],
     [codes.exclamationMark],
-    [codes.replacementCharacter],
-    [codes.space]
+    [codes.byteOrderMarker],
+    [codes.replacementCharacter]
   ])('should return `false` without ascii alphanumeric (%j)', code => {
     expect(testSubject(code)).to.be.false
   })

@@ -9,11 +9,11 @@ import testSubject from '../ascii-digit.mts'
 
 describe('unit:lib/asciiDigit', () => {
   it.each<Parameters<typeof testSubject>>([
-    [codes.byteOrderMarker],
-    [codes.lowercaseA],
-    [codes.replacementCharacter],
     [codes.space],
-    [codes.uppercaseA]
+    [codes.uppercaseA],
+    [codes.lowercaseA],
+    [codes.byteOrderMarker],
+    [codes.replacementCharacter]
   ])('should return `false` without ascii digit (%j)', code => {
     expect(testSubject(code)).to.be.false
   })

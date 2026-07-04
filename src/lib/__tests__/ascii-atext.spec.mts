@@ -11,9 +11,9 @@ import testSubject from '../ascii-atext.mts'
 
 describe('unit:lib/asciiAtext', () => {
   it.each<Parameters<typeof testSubject>>([
+    [codes.lf],
+    [codes.zwnj],
     [codes.byteOrderMarker],
-    [codes.del],
-    [codes.space],
     [codes.replacementCharacter]
   ])('should return `false` without ascii atext (%j)', code => {
     expect(testSubject(code)).to.be.false

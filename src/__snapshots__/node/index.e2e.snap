@@ -18,6 +18,8 @@ exports[`e2e:mark-util-character > should expose public api 1`] = `
   "lineEnding",
   "space",
   "streamBreak",
+  "unicodePunctuation",
+  "unicodeWhitespace",
   "vtab",
   "whitespace",
 ]

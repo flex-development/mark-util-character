@@ -8,11 +8,11 @@ import testSubject from '../ascii-punctuation.mts'
 
 describe('unit:lib/asciiPunctuation', () => {
   it.each<Parameters<typeof testSubject>>([
-    [codes.byteOrderMarker],
+    [codes.space],
     [codes.digit0],
     [codes.lowercaseA],
-    [codes.replacementCharacter],
-    [codes.space]
+    [codes.byteOrderMarker],
+    [codes.replacementCharacter]
   ])('should return `false` without ascii punctuation (%j)', code => {
     expect(testSubject(code)).to.be.false
   })

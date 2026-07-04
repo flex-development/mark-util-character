@@ -20,5 +20,7 @@ export {
 export { default as eol, default as lineEnding } from './line-ending.mts'
 export { default as space } from './space.mts'
 export { default as streamBreak } from './stream-break.mts'
+export { default as unicodePunctuation } from './unicode-punctuation.mts'
+export { default as unicodeWhitespace } from './unicode-whitespace.mts'
 export { default as vtab } from './vtab.mts'
 export { default as whitespace } from './whitespace.mts'

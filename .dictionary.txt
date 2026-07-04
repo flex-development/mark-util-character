@@ -6,11 +6,14 @@ dedupe
 devlop
 fbca
 gpgsign
+gyas
 hmarr
 htab
 jchen
 kaisugi
 nvmrc
+pilcrow
+rtags
 shfmt
 unstub
 vates
