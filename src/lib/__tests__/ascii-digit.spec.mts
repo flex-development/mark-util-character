@@ -3,7 +3,7 @@
  * @module mark-util-character/lib/tests/unit/asciiDigit
  */
 
-import DIGITS from '#fixtures/digits'
+import digits from '#fixtures/digits'
 import { codes } from '@flex-development/mark-util-symbol'
 import testSubject from '../ascii-digit.mts'
 
@@ -18,7 +18,7 @@ describe('unit:lib/asciiDigit', () => {
     expect(testSubject(code)).to.be.false
   })
 
-  it.each(DIGITS)('should return `true` given ascii digit (%j)', code => {
+  it.each(digits)('should return `true` given ascii digit (%j)', code => {
     expect(testSubject(code)).to.be.true
   })
 })
