@@ -1,7 +1,7 @@
 {
   "name": "@flex-development/mark-util-character",
   "description": "mark utility to handle character codes",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "keywords": [
     "character",
     "charcode",
