@@ -4,7 +4,8 @@
  */
 
 import LARGEST_CODE_POINT from '#internal/largest-code-point'
-import { codes } from '@flex-development/mark-util-symbol'
+import type { Serialize } from '@flex-development/mark-util-character'
+import { chars, codes } from '@flex-development/mark-util-symbol'
 import type { Code, CodeCheck } from '@flex-development/mark/parse'
 import type { Mock } from 'vitest'
 import testSubject from '../checker.mts'
@@ -62,6 +63,34 @@ describe('unit:lib/checker', () => {
 
     it('should return `false` if typeof `code` is not a number', () => {
       expect(subject(codes.eos)).to.be.false
+    })
+
+    describe('serialize', () => {
+      let serialize: Mock<Serialize>
+      let subject: CodeCheck
+
+      beforeEach(() => {
+        serialize = vi.fn(() => chars.empty).mockName('serialize')
+        subject = testSubject(test, serialize)
+      })
+
+      it('should serialize code and check result against `test`', () => {
+        // Arrange
+        const code: Code = codes.eos
+        let tester: Mock<RegExp['test']>
+
+        // Setup
+        tester = vi.spyOn(test, 'test')
+
+        // Act
+        subject(code)
+
+        // Expect
+        expect(serialize).toHaveBeenCalledOnce()
+        expect(serialize).toHaveBeenCalledWith(code)
+        expect(tester).toHaveBeenCalledOnce()
+        expect(tester).toHaveBeenCalledWith(serialize.mock.results[0]!.value)
+      })
     })
   })
 })
