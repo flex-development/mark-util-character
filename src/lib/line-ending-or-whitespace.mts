@@ -11,7 +11,7 @@ import lineEnding from './line-ending.mts'
 import space from './whitespace.mts'
 
 /**
- * Check if `code` represents a line ending or space.
+ * Check if `code` represents a line ending or whitespace.
  *
  * @see {@linkcode LineEnding}
  * @see {@linkcode Whitespace}
@@ -21,7 +21,7 @@ import space from './whitespace.mts'
  * @param {unknown} code
  *  The character code to check
  * @return {code is LineEnding | Whitespace}
- *  `true` if `code` is line ending or space code, `false` otherwise
+ *  `true` if `code` is line ending or whitespace code, `false` otherwise
  */
 function lineEndingOrWhitespace(
   this: void,

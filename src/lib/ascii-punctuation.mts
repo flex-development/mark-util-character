@@ -11,9 +11,9 @@ import checker from './checker.mts'
  *
  * An ***ASCII punctuation*** is a character in the following inclusive ranges:
  *
- * - `U+0021` EXCLAMATION MARK (`!`) to `U+002F` SLASH (`/`),
- * - `U+003A` COLON (`:`) to `U+0040` AT SIGN (`@`),
- * - `U+005B` LEFT SQUARE BRACKET (`[`) to `U+0060` GRAVE ACCENT (`` ` ``), or
+ * - `U+0021` EXCLAMATION MARK (`!`) to `U+002F` SLASH (`/`)
+ * - `U+003A` COLON (`:`) to `U+0040` AT SIGN (`@`)
+ * - `U+005B` LEFT SQUARE BRACKET (`[`) to `U+0060` GRAVE ACCENT (`` ` ``)
  * - `U+007B` LEFT CURLY BRACE (`{`) to `U+007E` TILDE (`~`)
  *
  * @see {@linkcode CodeCheck}

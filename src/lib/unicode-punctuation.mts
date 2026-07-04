@@ -12,15 +12,15 @@ import checker from './checker.mts'
  * A ***Unicode punctuation*** is a character in the
  * following Unicode categories:
  *
- * - `Pc` (Punctuation, Connector),
- * - `Pd` (Punctuation, Dash),
- * - `Pe` (Punctuation, Close),
- * - `Pf` (Punctuation, Final quote),
- * - `Pi` (Punctuation, Initial quote),
+ * - `Pc` (Punctuation, Connector)
+ * - `Pd` (Punctuation, Dash)
+ * - `Pe` (Punctuation, Close)
+ * - `Pf` (Punctuation, Final quote)
+ * - `Pi` (Punctuation, Initial quote)
  * - `Po` (Punctuation, Other)
- * - `Ps` (Punctuation, Open), or
+ * - `Ps` (Punctuation, Open)
  *
- * an ASCII punctuation (see {@linkcode asciiPunctuation}).
+ * or an ASCII punctuation (see {@linkcode asciiPunctuation}).
  *
  * @see {@linkcode CodeCheck}
  * @see {@linkcode Code}

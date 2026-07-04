@@ -16,7 +16,7 @@ import eos from './eos.mts'
  * @param {unknown} value
  *  The thing to check
  * @return {value is Code}
- *  `true` if `code` is a number or `null`, `false` otherwise
+ *  `true` if `value` is a number or `null`, `false` otherwise
  */
 function isCode(this: void, value: unknown): value is Code {
   return typeof value === 'number' || eos(value)

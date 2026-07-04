@@ -13,8 +13,8 @@ import { codes } from '@flex-development/mark-util-symbol'
  * @param {unknown} code
  *  The character code to check
  * @return {code is typeof codes.ht | typeof codes.vht}
- *  `true` if `code` is {@linkcode codes.horizontalTab}, {@linkcode codes.ht},
- *  or {@linkcode codes.vht}, `false` otherwise
+ *  `true` if `code` is {@linkcode codes.horizontalTab} (aka `codes.vht`)
+ *  or {@linkcode codes.ht}, `false` otherwise
  */
 function htab(
   this: void,

@@ -10,7 +10,7 @@ import checker from './checker.mts'
  * Check whether a character code represents an ASCII alphanumeric (`a` through
  * `z`, case insensitive, or `0` through `9`).
  *
- * An **ASCII alphanumeric** is an ASCII digit (see {@linkcode asciiDigit}) or
+ * An ***ASCII alphanumeric*** is an ASCII digit (see {@linkcode asciiDigit}) or
  * ASCII alpha (see {@linkcode asciiAlpha})
  *
  * @see {@linkcode CodeCheck}
