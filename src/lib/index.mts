@@ -13,6 +13,8 @@ export { default as asciiPunctuation } from './ascii-punctuation.mts'
 export { default as checker } from './checker.mts'
 export { default as eos } from './eos.mts'
 export { default as htab } from './htab.mts'
+export { default as idContinue } from './id-continue.mts'
+export { default as idStart } from './id-start.mts'
 export { default as isCode } from './is-code.mts'
 export {
   default as lineEndingOrWhitespace

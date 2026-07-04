@@ -12,6 +12,8 @@ exports[`e2e:mark-util-character > should expose public api 1`] = `
   "checker",
   "eos",
   "htab",
+  "idContinue",
+  "idStart",
   "isCode",
   "lineEndingOrWhitespace",
   "eol",
