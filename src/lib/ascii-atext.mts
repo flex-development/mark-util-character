@@ -12,6 +12,7 @@ import checker from './checker.mts'
  * ***atext*** is an ASCII alphanumeric (see {@linkcode asciiAlphanumeric}),
  * or a character in the following inclusive ranges:
  *
+ * - `U+0021` EXCLAMATION MARK (`!`)
  * - `U+0023` NUMBER SIGN (`#`) to `U+0027` APOSTROPHE (`'`)
  * - `U+002A` ASTERISK (`*`)
  * - `U+002B` PLUS SIGN (`+`)
@@ -34,6 +35,6 @@ import checker from './checker.mts'
  * @return {boolean}
  *  Whether the character code matches
  */
-const asciiAtext: CodeCheck = checker(/[#-'*+\--9=?A-Z^-~]/)
+const asciiAtext: CodeCheck = checker(/[!#-'*+\--9=?A-Z^-~]/)
 
 export default asciiAtext

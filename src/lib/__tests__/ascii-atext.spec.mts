@@ -31,6 +31,10 @@ describe('unit:lib/asciiAtext', () => {
     expect(testSubject(codes.equalsTo)).to.be.true
   })
 
+  it('should return `true` given `codes.exclamationMark`', () => {
+    expect(testSubject(codes.exclamationMark)).to.be.true
+  })
+
   it('should return `true` given `codes.plusSign`', () => {
     expect(testSubject(codes.plusSign)).to.be.true
   })
