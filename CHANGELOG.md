@@ -1,3 +1,34 @@
+## [1.1.0](https://github.com/flex-development/mark-util-character/compare/1.0.0...1.1.0) (2026-08-03)
+
+### :package: Build
+
+- [[`309da7d`](https://github.com/flex-development/mark-util-character/commit/309da7d907b4f54d15fa0ab5e1969a1324e492ce)] **deps-dev:** Bump @arethetypeswrong/cli from 0.18.4 to 0.18.5 ([#10](https://github.com/flex-development/mark-util-character/issues/10))
+- [[`b2179e4`](https://github.com/flex-development/mark-util-character/commit/b2179e49a296ab597becd2a9bb7655e05a0ebc54)] **deps-dev:** Bump @commitlint/cli from 21.2.0 to 21.2.1 in the commitlint group ([#8](https://github.com/flex-development/mark-util-character/issues/8))
+- [[`544d326`](https://github.com/flex-development/mark-util-character/commit/544d3263fb658bd499fb2b9da4b517058cb7341d)] **deps-dev:** Bump dprint from 0.55.1 to 0.55.2 ([#14](https://github.com/flex-development/mark-util-character/issues/14))
+- [[`ee2e6bc`](https://github.com/flex-development/mark-util-character/commit/ee2e6bcf594bd6fff75acfea8b4c4be3f28e5e0a)] **deps-dev:** Bump happy-dom from 20.10.6 to 20.11.1 ([#17](https://github.com/flex-development/mark-util-character/issues/17))
+- [[`3c9e595`](https://github.com/flex-development/mark-util-character/commit/3c9e5953d9751afc6192031913976b19e5477e5d)] **deps-dev:** Bump sh-syntax from 0.5.8 to 0.6.0 ([#9](https://github.com/flex-development/mark-util-character/issues/9))
+- [[`a7006a7`](https://github.com/flex-development/mark-util-character/commit/a7006a78c32db05a502f76dbd35e06a6ae604413)] **deps-dev:** Bump the vitest group across 1 directory with 3 updates ([#7](https://github.com/flex-development/mark-util-character/issues/7))
+- [[`8e22176`](https://github.com/flex-development/mark-util-character/commit/8e2217621a5bde9797c299cce210fc31b3986aca)] **deps-dev:** Bump tsx from 4.23.0 to 4.23.1 ([#12](https://github.com/flex-development/mark-util-character/issues/12))
+- [[`631cc1a`](https://github.com/flex-development/mark-util-character/commit/631cc1a57c173d70966b6d88611640f6f72c35b5)] **deps:** bump @flex-development/mark from 1.0.0-alpha.1 to 1.0.0-alpha.3
+- [[`a64af4e`](https://github.com/flex-development/mark-util-character/commit/a64af4edee6069335f458fa53c5c2c7ff7151a17)] **deps:** Bump @flex-development/mark-util-symbol from 3.0.0 to 3.1.0 in the flex-development group ([#6](https://github.com/flex-development/mark-util-character/issues/6))
+- [[`fedcfc7`](https://github.com/flex-development/mark-util-character/commit/fedcfc719d847e1c06339b60b6b0f8e8508a83b8)] **deps:** Bump brace-expansion from 1.1.15 to 1.1.16 ([#18](https://github.com/flex-development/mark-util-character/issues/18))
+- [[`6e3e651`](https://github.com/flex-development/mark-util-character/commit/6e3e6518e1707bbf1f61aa30a1b6f25ee83e35a4)] **deps:** Bump fast-uri from 3.1.2 to 3.1.5 ([#24](https://github.com/flex-development/mark-util-character/issues/24))
+- [[`8bad8a2`](https://github.com/flex-development/mark-util-character/commit/8bad8a2c55439b28f909fb83535bf4f22f986459)] **deps:** Bump js-yaml from 4.2.0 to 4.3.1 ([#21](https://github.com/flex-development/mark-util-character/issues/21))
+
+### :robot: Continuous Integration
+
+- [[`c3409a3`](https://github.com/flex-development/mark-util-character/commit/c3409a3169a1fca38525cde43ba70f305996a1a6)] **deps:** Bump actions/checkout from 7.0.0 to 7.0.1 ([#15](https://github.com/flex-development/mark-util-character/issues/15))
+- [[`5823937`](https://github.com/flex-development/mark-util-character/commit/5823937c0408dbd298c05454cfc1c12eda589be0)] **deps:** Bump actions/setup-node from 6.4.0 to 7.0.0 ([#13](https://github.com/flex-development/mark-util-character/issues/13))
+- [[`6d2a3e3`](https://github.com/flex-development/mark-util-character/commit/6d2a3e323ab7d55033e4d1f2b946b92d937cff32)] **workflows:** `dependabot-dedupe` -> `dependabot-packages`
+
+### :sparkles: Features
+
+- [[`3bf2bfd`](https://github.com/flex-development/mark-util-character/commit/3bf2bfd36ca137d0a2058a97c921291f4ea4c8fd)] `bos`
+
+### :bug: Fixes
+
+- [[`5897f5e`](https://github.com/flex-development/mark-util-character/commit/5897f5e56276278fd48da095330a4e88a44fd939)] **lib:** [`asciiAtext`] succeed on `codes.exclamationMark`
+
 ## 1.0.0 (2026-07-04)
 
 ### :package: Build
@@ -34,5 +65,6 @@
 ### :mechanical_arm: Refactors
 
 - [[`c652b7c`](https://github.com/flex-development/mark-util-character/commit/c652b7c6ac8aa9d33a1b8c96d9fe7f8ddd16121c)] `is` -> `isCode`
+
 
 
